@@ -1,10 +1,221 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TARO YAMADA ポートフォリオ">
+  <meta property="og:url" content="https://hibiki1228.github.io/Portfolio/">
+  <meta property="og:description" content="HIBIKI MATSUNUMAのポートフォリオサイトです。">
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="HIBIKI MATSUNUMAのポートフォリオサイトです" />
+  <title>HIBIKI MATSUNUMA ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="canonical" href="https://hibiki1228.github.io/Portfolio/" />
 </head>
+
 <body>
-  <h1>Test Portfolio</h1>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">HIBIKI MATSUNUMA</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">HIBIKI MATSUNUMA</p>
+          <p class="mv-subtitle">PORTFOLIO</p>
+          <p class="mv-text">
+            こんにちは！Hibikiです。<br class="sp-only">
+            大学生でプログラミングを趣味でやっている者です。<br>
+            バックエンドと低レイヤーに関する知識があり、フロントエンドの経験を持っているので全体的な流れをすぐに把握し活動できます。
+          </p>
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://github.com/hibiki1228/practice_python">
+              <div class="works-img"><img src="img/python.png" alt="" /></div>
+              <p class="works-name">Pythonツール</p>
+              <p class="works-info">くじら飛行机さんの0から始めるPythonを参考に作ったツール</p>
+            </a>
+            <a class="works-item" href="https://github.com/kyutech-programming-club/stego_cup">
+              <div class="works-img"><img src="img/stego.jpg" alt="" /></div>
+              <p class="works-name">ハックツハッカソン</p>
+              <p class="works-info">2021/6/19～20に開催されたハッカソンにプログラミング研究会の4名で出場した際の作品。<br>
+              「無駄に〇〇」というテーマで「無駄にうるさい」をテーマにしてプログラミング学習サイトを作成しました。タイピングするたび音が出たり正解すると音割れ音声が流れたりします。Azureが使用できたので、私はAzureのDB接続・管理と音声加工を担当しました。現在はAzureの権限が切れているので動かすことはできません。</p>
+            </a>
+            <a class="works-item" href="https://github.com/hibiki1228/Household-account-book">
+              <div class="works-img"><img src="img/kakeibo1.png" alt="" /></div>
+              <p class="works-name">家計簿アプリ</p>
+              <p class="works-info">PythonとMySQLを用いたGUI式簡易家計簿アプリ</p>
+            </a>
+            <a class="works-item" href="https://github.com/hibiki1228/sound_edit/tree/develop">
+              <div class="works-img"><img src="img/SoundIcon.png" alt="" /></div>
+              <p class="works-name">音声ファイル編集</p>
+              <p class="works-info">音声データの尺、音量変更、データ同士の合成をCLIで行うソフト</p>
+            </a>
+            <a class="works-item" href="https://github.com/hibiki1228/Acoustic-analysis">
+              <div class="works-img"><img src="img/mfcc_mel_spec.png" alt="" /></div>
+              <p class="works-name">音響解析</p>
+              <p class="works-info">様々な信号処理の技術で音声データを解析、変換</p>
+            </a>
+            <a class="works-item" href="https://github.com/hibiki1228/CTF_History/tree/master">
+              <div class="works-img"><img src="img/Capture-The-Flag.png" alt="" /></div>
+              <p class="works-name">CTF</p>
+              <p class="works-info">過去に参加したCTFのコンテストや練習の痕跡</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/python.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Python</h3>
+                <p class="skill-text">
+                  私が最も触れてきた言語です。各種ライブラリやFlask,Django等のフレームワークを利用した経験があり、外部のデータベース(MySQL, Azure)と接続、管理の経験もあります。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/Cgenngo.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">C言語</h3>
+                <p class="skill-text">
+                  基礎的な範囲で学習済みです。Pythonよりは熟練度で劣りますが、コードを読んで理解できるくらいの理解度です。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/html_css.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">HTML/CSS</h3>
+                <p class="skill-text">
+                  テスト用で自己紹介用のHPを作ったことがあります。ハックツハッカソンでもフロントエンドを少しサポートしました。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/yu_azure2.jpg" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Azure</h3>
+                <p class="skill-text">
+                  ハッカソンでデータベースとデプロイ用で使用しました。クラウドサービスについての知識を持っているのでサービスのバックエンドで力を発揮できます。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/MySQL.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">SQL</h3>
+                <p class="skill-text">
+                  ローカルでサーバーを立ててのMySQLやPythonのライブラリであるsqlite、クラウドのデータベースSQLを使用した経験があります。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/vscode.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Vscode/Vim</h3>
+                <p class="skill-text">
+                  普段はVscodeでコーディングをしています。メイン機のWindowsでVscode、サブ機のLinuxでVimを使うようにしています。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/git.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Git/GitHub</h3>
+                <p class="skill-text">
+                  チームでのGithubを使った開発の経験があります。一人で開発する際もGithubを使っているので慣れています。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <!-- <p class="profile-img">
+              <img src="img/profile.jpg" alt="">
+            </p> -->
+            <div class="profile-body">
+              <p>
+                松沼　韻(マツヌマ　ヒビキ)　平成13年12月28日生まれ<br>
+                ・九州工業大学電気電子工学科2年所属(2021/8/13現在)<br>
+                ・プログラミング研究会、軽音サークル<br>
+              </p>
+              <p>
+                音楽が大好きすぎて音響プログラミングにまで手を出してしまった理系の大学生です！
+                軽音サークルではドラムをしています。好きなバンドは聖飢魔IIです。<br>
+                独学でプログラミングを学んでいます。Pythonを最も得意としておりサーバーサイドに興味があります。まだ勉強中の身ですので様々な場面でフロントエンド・バックエンドに関わらず経験させていただけるとありがたいと思っています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://twitter.com/expected_token" target="_blank" rel="noopener">Twitter</a>
+            <a class="contact-item" href="https://github.com/hibiki1228" target="_blank" rel="noopener">GitHub</a>
+            <span class="contact-item">devkimadore1228@gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;HIBIKI MATSUNUMA</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
