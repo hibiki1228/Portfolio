@@ -1,3 +1,5 @@
 # Portfolio
 Portfolio about me
-https://hibiki1228.github.io/Portfolio/
+My design refers to several sites...
+
+## This is my portfolio: https://hibiki1228.github.io/Portfolio/
